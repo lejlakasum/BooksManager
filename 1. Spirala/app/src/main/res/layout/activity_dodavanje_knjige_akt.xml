@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ba.unsa.etf.rma.lejla.projekatrma.DodavanjeKnjigeAkt">
+
+    <RelativeLayout
+        android:id="@+id/layoutDodavanjeKnjige"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/imeAutoraView"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/tekst"
+            android:textSize="20dp"
+            android:text="Ime autora:"/>
+
+        <EditText
+            android:id="@+id/imeAutora"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imeAutoraView"/>
+
+        <TextView
+            android:id="@+id/nazivKnjigeView"
+            android:layout_width="130dp"
+            android:layout_below="@id/imeAutoraView"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/tekst"
+            android:textSize="20dp"
+            android:text="Naziv knjige:"/>
+
+        <EditText
+            android:id="@+id/nazivKnjige"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/imeAutoraView"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imeAutoraView"/>
+
+        <TextView
+            android:id="@+id/kategorijaView"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/nazivKnjigeView"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/tekst"
+            android:textSize="20dp"
+            android:text="Kategorija:"/>
+
+        <Spinner
+            android:id="@+id/sKategorijaKnjige"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/nazivKnjigeView"
+            android:layout_toRightOf="@id/kategorijaView"
+            android:layout_marginTop="20dp">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/naslovnaView"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/kategorijaView"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/tekst"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:text="Naslovna strana"/>
+
+        <ImageView
+            android:id="@+id/naslovnaStr"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/naslovnaView"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:id="@+id/dNadjiSliku"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/naslovnaStr"
+            android:layout_below="@id/naslovnaView"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            android:text="Nađi sliku"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/dUpisiKnjigu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/naslovnaStr"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="U p i š i   k nj i g u"
+            android:textColor="@color/bijela"
+            android:background="@color/dugmeUpisi"
+            />
+
+        <Button
+            android:id="@+id/dPonisti"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/naslovnaStr"
+            android:layout_toRightOf="@id/dUpisiKnjigu"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="P o n i š t i"
+            android:textColor="@color/bijela"
+            android:background="@color/dugmePonisti"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

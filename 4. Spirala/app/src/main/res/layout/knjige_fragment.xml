@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listaKnjiga"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:focusable="true">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/dPovratak"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/listaKnjiga"
+        android:layout_marginTop="5dp"
+        android:text="@string/button_povratak_na_po_etnu"/>
+
+
+</RelativeLayout>

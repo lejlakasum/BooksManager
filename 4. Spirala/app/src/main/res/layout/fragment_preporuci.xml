@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="5dp"
+        android:text="Odaberite kontakt"
+        android:textColor="@color/tekst"/>
+
+    <Spinner
+        android:id="@+id/sKontakti"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"></Spinner>
+
+    <TextView
+        android:id="@+id/tNaslov"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/sKontakti"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/tekst"/>
+
+    <TextView
+        android:id="@+id/tAutor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tNaslov"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tOpis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tAutor"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/dPosalji"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tOpis"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="Posalji"/>
+
+</RelativeLayout>

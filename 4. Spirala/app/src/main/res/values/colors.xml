@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4500</color>
+    <color name="colorPrimaryDark">#8B0000</color>
+    <color name="colorAccent">#006400</color>
+    <color name="tekst">#000000</color>
+    <color name="dugmeUpisi">#006400</color>
+    <color name="dugmePonisti">#B22222</color>
+    <color name="bijela">#FFFFFF</color>
+    <color name="obojiKnjigu">#ffaabbed</color>
+    <color name="svjetloSiva">#DCDCDC</color>
+    <color name="narandjasta">#CD853F</color>
+
+</resources>

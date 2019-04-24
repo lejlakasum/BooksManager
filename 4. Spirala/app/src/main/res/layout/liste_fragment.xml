@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <Button
+        android:id="@+id/dKategorije"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:text="@string/button_kategorije"
+        android:textColor="@color/tekst"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/dAutori"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="@string/button_autori"
+        android:layout_toRightOf="@id/dKategorije"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="3dp"
+
+        />
+
+    <EditText
+        android:id="@+id/tekstPretraga"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/tekst"
+        android:layout_marginLeft="5dp"
+        />
+
+    <Button
+        android:id="@+id/dPretraga"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@id/tekstPretraga"
+        android:layout_marginLeft="10dp"
+        android:text="@string/button_pretraga"
+        android:layout_marginTop="50dp"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/dDodajKategoriju"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tekstPretraga"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/button_dodaj_kategoriju"
+        android:enabled="false"
+        />
+    <Button
+        android:id="@+id/dDodajKnjigu"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="@string/button_dodaj_knjigu"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="100dp"
+        />
+    <Button
+        android:id="@+id/dDodajOnline"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Dodaj knjigu online"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+
+        />
+
+    <ListView
+        android:id="@+id/listaKategorija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dDodajOnline"
+        android:layout_marginTop="30dp"
+        ></ListView>
+
+</RelativeLayout>

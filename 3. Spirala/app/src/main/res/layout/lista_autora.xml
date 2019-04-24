@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        android:text="nesto"
+        android:textSize="20dp"
+        android:textColor="@color/tekst"
+        />
+    <TextView
+        android:id="@+id/brojKnjiga"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/autor"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentRight="true"
+        android:text="50"
+        android:textAlignment="center"
+        android:textColor="@color/tekst"
+        android:textSize="30dp"
+        />
+
+</RelativeLayout>

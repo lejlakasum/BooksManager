@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Book Assistant</string>
+    <string name="button_kategorije">Categories</string>
+    <string name="button_autori">Authors</string>
+    <string name="button_pretraga">Search</string>
+    <string name="button_dodaj_kategoriju">Add Category</string>
+    <string name="button_dodaj_knjigu">Add Book</string>
+    <string name="button_povratak_na_po_etnu">Back to main</string>
+    <string name="txt_ime_autora">Author name:</string>
+    <string name="txt_naziv_knjige">Book title</string>
+    <string name="txt_kategorija">Category:</string>
+    <string name="txt_naslovna_strana">Book cover</string>
+    <string name="button_nadji_sliku">Find image</string>
+    <string name="button_upisi_knjigu">Register Book</string>
+    <string name="button_ponisti">Cancel</string>
+    <string name="toast_dodana_knjiga">The book has been successfully added</string>
+</resources>

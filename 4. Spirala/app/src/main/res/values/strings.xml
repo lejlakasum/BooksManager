@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProjekatRMA</string>
+    <string name="button_kategorije">Kategorije</string>
+    <string name="button_autori">Autori</string>
+    <string name="button_pretraga">Pretraga</string>
+    <string name="button_dodaj_kategoriju">Dodaj Kategoriju</string>
+    <string name="button_dodaj_knjigu">Dodaj knjigu</string>
+    <string name="button_povratak_na_po_etnu">Povratak na početnu</string>
+    <string name="txt_ime_autora">Ime autora:</string>
+    <string name="txt_naziv_knjige">Naziv knjige:</string>
+    <string name="txt_kategorija">Kategorija:</string>
+    <string name="txt_naslovna_strana">Naslovna strana</string>
+    <string name="button_nadji_sliku">Nađi sliku</string>
+    <string name="button_upisi_knjigu">Upiši knjigu</string>
+    <string name="button_ponisti">P o n i š t i</string>
+    <string name="toast_dodana_knjiga">Knjiga uspješno dodana</string>
+</resources>

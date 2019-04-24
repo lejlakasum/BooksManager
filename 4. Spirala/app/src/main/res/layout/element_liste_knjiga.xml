@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/eNaslovna"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp" />
+    
+    <TextView
+        android:id="@+id/eAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/eNaslovna"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="13dp"
+        />
+
+    <TextView
+        android:id="@+id/eNaziv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/eAutor"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/tekst"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/eDatumObjavljivanja"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/eNaslovna"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/eBrojStranica"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eNaziv"
+        android:layout_toRightOf="@id/eNaslovna"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/dPreporuci"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/eNaziv"
+        android:layout_marginStart="39dp"
+        android:layout_toEndOf="@+id/eBrojStranica"
+        android:text="Preporuci"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/eOpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eDatumObjavljivanja"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="gravity"/>
+
+
+
+</RelativeLayout>
